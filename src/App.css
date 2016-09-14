@@ -46,10 +46,11 @@ body {
 }
 
 .header-logo {
-  background: url('http://www.imarui.sc.gov.br/thumbs/642/1035164_resize_1000_.png') no-repeat;
-  background-size: 100%;
-  max-width: 4em;
-  height: 3em;
+  background: url('http://cdn.fecam.com.br/images/municipios/brasao/90x90/tubarao.png') no-repeat;
+  background-size: cover;
+  max-width: 4.2em;
+  height: 4.2em;
+  margin: 0;
   text-indent: -9999em;
 }
 

@@ -16,7 +16,7 @@ class Candidate extends Component {
   }
 
   getMoreInfo(idCandidate) {
-    axios.get(`http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2016/81418/2/candidato/${idCandidate}`)
+    axios.get(`http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2016/83674/2/candidato/${idCandidate}`)
       .then(response => {
         this.setState({
           extraInfo: response.data
